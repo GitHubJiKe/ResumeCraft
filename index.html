@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeCraft - Professional Resume Builder</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="resume-container">
+        <header class="resume-header">
+            <div class="profile-section">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Profile Photo" class="profile-photo">
+                <div class="profile-info">
+                    <h1 class="name">John Doe</h1>
+                    <p class="tagline">Senior Software Engineer</p>
+                    <div class="contact-info">
+                        <span class="email">john.doe@example.com</span>
+                        <span class="phone">(123) 456-7890</span>
+                        <span class="linkedin">linkedin.com/in/johndoe</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="resume-section summary">
+            <h2>Professional Summary</h2>
+            <p>Experienced software engineer with 5+ years of expertise in full-stack development. Specialized in JavaScript frameworks and cloud architecture. Passionate about building scalable web applications and mentoring junior developers.</p>
+        </section>
+
+        <section class="resume-section experience">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Software Engineer</h3>
+                        <h4>TechCorp Inc.</h4>
+                        <ul>
+                            <li>Led development of customer portal using React and Node.js</li>
+                            <li>Reduced API response time by 40% through query optimization</li>
+                            <li>Mentored 3 junior developers in best practices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2016 - 2018</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer</h3>
+                        <h4>WebSolutions LLC</h4>
+                        <ul>
+                            <li>Developed responsive web applications using AngularJS</li>
+                            <li>Implemented CI/CD pipeline reducing deployment time</li>
+                            <li>Collaborated with UX team to improve user flows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Master of Computer Science</h3>
+                <h4>State University</h4>
+                <p>2014 - 2016</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Science in IT</h3>
+                <h4>City College</h4>
+                <p>2010 - 2014</p>
+            </div>
+        </section>
+
+        <section class="resume-section skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">English</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Spanish</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-section projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Project Image">
+                    <h3>E-commerce Platform</h3>
+                    <p>Full-featured online store with payment integration</p>
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Project Image">
+                    <h3>Task Management App</h3>
+                    <p>Collaborative project management tool</p>
+                    <div class="tech-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="resume-footer">
+            <button id="export-pdf" class="export-btn">Export as PDF</button>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
